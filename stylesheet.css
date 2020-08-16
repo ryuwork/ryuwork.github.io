@@ -162,7 +162,7 @@ footer{
         display: block;
         /* text-align: center; */
     }
-    .item,.item p{
+    .item, .item p{
         text-align: center;
         /* width:100px; */
         margin:0 auto;
@@ -172,4 +172,8 @@ footer{
         margin:auto;
         flex:1;
     }
+    .item{
+        width:100%;
+    }
+
 }
