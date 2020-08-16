@@ -185,7 +185,8 @@ footer{
         margin-left: 0;
     }
     .logo{
-        width:95px;
+        width:100px;
+        padding:10px 0 0 10px;
     }
 
 }
