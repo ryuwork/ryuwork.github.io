@@ -82,6 +82,7 @@ header li{
 .facebook{
     background: #3b5998;
     margin-right:5px;
+    padding:10px 25px;
 }
 .twitter{
     background: #55acee;
@@ -176,5 +177,11 @@ footer{
         width:100%;
         margin-bottom:40px;
     }
-
+    .facebook{
+        margin-right:0;
+        padding:10px 23px;
+    }
+    .twitter{
+        margin-left: 0;
+    }
 }
