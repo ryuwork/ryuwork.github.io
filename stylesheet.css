@@ -96,6 +96,7 @@ header li{
 
 .content-wrapper{
     background: #f1f1f1;
+    width:100%;
 }
 .content-wrapper h2{
     font-weight:normal;
@@ -153,4 +154,22 @@ header li{
 footer{
     height:60px;
     background:#abc
+}
+
+/*------------------スマートフォン--------------------*/
+@media (max-width:1000px){
+    .items{
+        display: block;
+        /* text-align: center; */
+    }
+    .item,.item p{
+        text-align: center;
+        /* width:100px; */
+        margin:0 auto;
+    }
+    .text{
+        width:100%;
+        margin:auto;
+        flex:1;
+    }
 }
